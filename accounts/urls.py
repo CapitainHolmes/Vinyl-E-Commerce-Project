@@ -7,5 +7,6 @@ urlpatterns = [
     url(r'^profile/$', profile, name='profile'),
     url(r'^logout/$', logout, name='logout'),
     url(r'^login/$', login, name='login'),
+    url(r'^index/$', login, name='index'),
     url(r'^password-reset/', include(urls_reset)),
 ]
