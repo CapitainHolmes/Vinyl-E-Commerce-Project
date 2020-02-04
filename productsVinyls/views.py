@@ -5,4 +5,4 @@ from .models import Vinyl
 # A view to return all vinyls within the database
 def all_vinyls(request):
     vinyls = Vinyl.objects.all()
-    return render(request, "vinyls.html")
+    return render(request, "vinyls.html", {'productsVinyl': vinyls})

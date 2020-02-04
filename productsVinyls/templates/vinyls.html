@@ -15,7 +15,7 @@
                 <p class="vinyl-description">{{ vinyl.description }}</p>
                 <p>{{ vinyl.price }}</p>
 
-                <form method="post" action="{% url 'add_to_cart' vinyl.id %}">
+                <!-- <form method="post" action="{% url 'add_to_cart' vinyl.id %}">
                     {% csrf_token %}
                     <div class="input-group">
                         <input name="quantity" type="number" min="1" max="999" class="form-control" placeholder="Quantity">
@@ -23,7 +23,7 @@
                             <button class="btn btn-success" type="submit">Add to Cart</button>
                         </span>
                     </div>
-                </form>
+                </form> -->
             </div>
         </div>
     {% endfor %}
