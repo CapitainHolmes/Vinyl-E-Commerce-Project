@@ -20,6 +20,7 @@ from productsVinyls import urls as urls_productsVinyls
 from productsVinyls.views import all_vinyls
 from django.views import static
 from .settings import MEDIA_ROOT
+from cart import urls as urls_cart
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
