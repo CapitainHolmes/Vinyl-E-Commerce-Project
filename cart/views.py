@@ -9,16 +9,13 @@ def add_to_cart(request, id):
     quantity = int(request.POST.get('quantity'))
 
     cart = request.session.get('cart', {})
-    if id in cart:
-        cart[id] = int(cart[id]) + quantity      
-    else:
-        cart[id] = cart.get(id, quantity) 
+    cart[id] = cart.get(id, quantity)
 
     request.session['cart'] = cart
     return redirect(reverse('index'))
 
 # A view to adjust the quantity of vinyls a user will have in their cart
-    def adjust_cart(request, id):
+def adjust_cart(request, id):
     quantity = int(request.POST.get('quantity'))
     cart = request.session.get('cart', {})
 
