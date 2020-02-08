@@ -24,19 +24,28 @@ vinyl records.
 
 ## UX DESIGN
 
+### About The Application
+
 This application will give the User the ability to browse through all avaliable Vinyls for sale, check the price for each item, see the rarity and/or check to see
 whether or not they're limited edition. The User will also be able to search for a specific vinyl by name (if that item is on the app and for sale), 
 show and group all avaliable rare/limited edition vinyls in a search and also search for a specific music genre. 
 
+###Target Audience 
+
+The Target Audience for this application would be:
+
+- Vinyl Record Enthusaists.
+- Music lovers of various Genre's.
+- People looking to increase their Vinyl Collection.
+- People who are unable to search Record stores to find what they're looking for.
+
 ### User Stories:
 
-- As a User I 
-- As a User I 
-- As a User I 
-- As a User I 
-- As a User I 
-- As a User I 
-- As a User I 
+- As a User I want the ability to add a vinyl to my cart.
+- As a User I want to be able to search for a specific vinyl.
+- As a User I want to be able to register my login details and be able to login.
+- As a User I want the application to remember my cart items.
+- As a User I want to be able to purchase vinyls online from this app.
 
 ## FEATURES
 
