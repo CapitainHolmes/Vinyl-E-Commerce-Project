@@ -30,7 +30,7 @@ This application will give the User the ability to browse through all avaliable 
 whether or not they're limited edition. The User will also be able to search for a specific vinyl by name (if that item is on the app and for sale), 
 show and group all avaliable rare/limited edition vinyls in a search and also search for a specific music genre. 
 
-###Target Audience 
+### Target Audience 
 
 The Target Audience for this application would be:
 
