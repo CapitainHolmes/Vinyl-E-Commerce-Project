@@ -30,5 +30,5 @@ urlpatterns = [
     url(r'^productsVinyls/', include(urls_productsVinyls)),
     url(r'^cart/', include(urls_cart)),
     url(r'^media/(?P<path>.*)$', static.serve, {'document_root': MEDIA_ROOT}),
-    url(r'^search/', include(urls_search)),
+    url(r'^searchVinyls/', include(urls_search)),
 ]
