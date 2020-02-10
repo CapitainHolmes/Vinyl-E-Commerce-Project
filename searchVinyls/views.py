@@ -6,5 +6,5 @@ from productsVinyls.models import Vinyl
 # A view for the searching of vinyls funnctionality
 
 def do_search(request):
-    vinyls = Vinyl.objects.filter(name__icontains=request.GET['q'])
+    vinyls = Vinyl.objects.filter(artist__icontains=request.GET['q'])
     return render(request, "vinyls.html", {"vinyls": vinyls})
