@@ -17,3 +17,13 @@ class vinyl_Order(models.Model):
 
     def __str__(self):
         return "{0}-{1}-{2}".format(self.id, self.date, self.full_name)
+
+
+# Model for the Order Line Vinyl in the checkout
+class OrderLineVinyl(models.Model):
+    order = models.ForeignKey(vinyl_Order, null=False)
+    vinyl = models.ForeignKey(Vinyl, null=False)
+    quantity = models.IntegerField(blank=False)
+
+    def __str__(self):
+        return "{0} {1} @ {2}".format(self.quantity, self.vinyl.artist, self.product.price)
