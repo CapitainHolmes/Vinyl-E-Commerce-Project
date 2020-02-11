@@ -2,6 +2,8 @@ from django.db import models
 from productsVinyls.models import Vinyl
 # Create your models here.
 
+
+# Model for the vinyls order checkout form
 class vinyl_Order(models.Model):
     full_name = models.CharField(max_length=50, blank=False)
     phone_number = models.CharField(max_length=20, blank=False)
@@ -14,4 +16,4 @@ class vinyl_Order(models.Model):
     date = models.DateField()
 
     def __str__(self):
-        return "{0}-{1}-{2}".format(self.id, self.date, self.full_name
+        return "{0}-{1}-{2}".format(self.id, self.date, self.full_name)
