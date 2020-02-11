@@ -10,3 +10,10 @@ from .models import OrderLineVinyl
 # Create your views here.
 
 stripe.api_key = settings.STRIPE_SECRET
+
+# Payment form view, log in required to checkout
+@login_required()
+def checkout(request):
+    if request.method == "POST":
+        order_form = OrderForm(request.POST)
+        payment_form = PaymentForm(request.POST)
