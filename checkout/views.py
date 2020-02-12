@@ -4,7 +4,7 @@ from .forms import PaymentForm, OrderForm
 from django.conf import settings
 from django.utils import timezone
 from django.contrib import messages
-from products.models import Vinyl
+from productsVinyls.models import Vinyl
 import stripe
 from .models import OrderLineVinyl
 # Create your views here.

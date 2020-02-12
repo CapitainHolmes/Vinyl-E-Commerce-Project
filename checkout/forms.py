@@ -17,7 +17,7 @@ class PaymentForm(forms.Form):
 class OrderForm(forms.ModelForm):
 
     class Meta:
-        model = Order
+        model = vinyl_Order
         fields = (
             'full_name', 'phone_number', 'country', 'postcode',
             'town_or_city', 'street_address1', 'street_address2',
