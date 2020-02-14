@@ -33,7 +33,7 @@ def checkout(request):
                     vinyl=vinyl,
                     quantity=quantity
                 )
-                order_line_item.save()
+                order_line_vinyl.save()
             
             try:
                 customer = stripe.Charge.create(
