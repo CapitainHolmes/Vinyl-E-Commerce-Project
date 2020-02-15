@@ -15,8 +15,10 @@
                 <div class="vinyl" style="background-image: url('{{ MEDIA_URL }}{{ vinyl.image }}')"></div>
 
                 <h3>{{ vinyl.artist }}</h3>
-                <p class="vinyl-description">{{ vinyl.description }}</p>
-                <p>{{ vinyl.price }}</p>
+                <p class="vinyl-album">Album: {{ vinyl.album }}</p>
+                <p class="vinyl-genre">Genre: {{ vinyl.genre }}</p>
+                <p class="vinyl-description">Description: {{ vinyl.description }}</p>
+                <p><span class="glyphicon glyphicon-gbp" aria-hidden="true"></span>{{ vinyl.price }}</p>
 
                 <form method="post" action="{% url 'add_to_cart' vinyl.id %}">
                     {% csrf_token %}
