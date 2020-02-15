@@ -7,4 +7,5 @@ from productsVinyls.models import Vinyl
 
 def do_search(request):
     vinyls = Vinyl.objects.filter(artist__icontains=request.GET['q'])
+    print(vinyls)
     return render(request, "vinyls.html", {"vinyls": vinyls})
