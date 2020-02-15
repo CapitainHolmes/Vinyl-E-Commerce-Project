@@ -15,8 +15,10 @@
         
                 <div class="caption">
                     <h3>{{ item.vinyl.artist }}</h3>
-                    <p class="vinyl-description">{{ item.vinyl.description }}</p>
-                    <p>{{ item.vinyl.price }}</p>
+                    <p class="vinyl-album">Album: {{ item.vinyl.album }}</p>
+                    <p class="vinyl-genre">Genre: {{ item.vinyl.genre }}</p>
+                    <p class="vinyl-description">Description: {{ item.vinyl.description }}</p>
+                    <p><span class="glyphicon glyphicon-gbp" aria-hidden="true"></span>{{ item.vinyl.price }}</p>
                     <p>
                      <!-- Quantity of vinyls / Change the quantity form -->
                         <form class="form-inline" method="post" action="{% url 'adjust_cart' item.id %}">

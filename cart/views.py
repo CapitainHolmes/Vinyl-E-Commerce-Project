@@ -12,7 +12,7 @@ def add_to_cart(request, id):
     cart[id] = cart.get(id, quantity)
 
     request.session['cart'] = cart
-    return redirect(reverse('index'))
+    return redirect(reverse('vinyls'))
 
 # A view to adjust the quantity of vinyls a user will have in their cart
 def adjust_cart(request, id):
