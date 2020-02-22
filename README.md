@@ -130,6 +130,9 @@ In future the things I would add:
 Throughout the course of this project I have been commiting every finished functionality, 
 every bug fix and things I thought needed removing, to GitHub using **[Version Control.](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)**
 
+I have used Heroku to host my live finished application for free.
+- My fully deployed App on Heroku can be found **[Here.](https://vinyl-ecommerce.herokuapp.com/)**
+
 All my commits and the full code for my project can be found on my GitHub Repository which can be found **[Here.](https://github.com/CapitainHolmes/Vinyl-E-Commerce-Project)** 
 
 ## CREDIT
