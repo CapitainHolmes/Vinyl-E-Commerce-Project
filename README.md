@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/CapitainHolmes/Vinyl-E-Commerce-Project.svg?branch=master)](https://travis-ci.com/CapitainHolmes/Vinyl-E-Commerce-Project)
+
+
 # VINYL E-COMMERCE APP - MILSTONE PROJECT 4
  
 #### Full Stack Frameworks With Djagno Project
