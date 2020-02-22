@@ -103,29 +103,48 @@ This test can be found **[here](https://github.com/CapitainHolmes/Vinyl-E-Commer
 - The Fourth test I conducted, was to see whether a user is able to check their added item out by filling the details form on the checkout page.
 This test can be found **[here](https://github.com/CapitainHolmes/Vinyl-E-Commerce-Project/blob/master/static/tests/selenium-tests/selenium-checking-out-test.png)**
 
+I also conducted tests on a wide selction of browsers/devices to ensure User's can successfully use the site and it's features.
 
+These tests included browsers/devices:
 
+- Edge - laptop
+- Mozilla - laptop
+- Chrome - laptop and iPhone
+- Safari - iPhone
+- Internet Explorer - laptop
 
-### Using Heroku Logs and Chrome Dev Tools
+Here is a list of each Validator used to check my code:
 
-
-
-### User Stories Testing
-
-### Things I Changed
+- **[W3C HTML](https://validator.w3.org/)**
+- **[W3C CSS3](https://jigsaw.w3.org/css-validator/)**
 
 
 ### Things to Add or Change in the Future
 
+In future the things I would add:
+
+- The ability to see whether or not a vinyl is rare/limited edition and also to search for all rare/limited vinyls.
 
 ## DEPLOYMENT
 
+Throughout the course of this project I have been commiting every finished functionality, 
+every bug fix and things I thought needed removing, to GitHub using **[Version Control.](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)**
+
+All my commits and the full code for my project can be found on my GitHub Repository which can be found **[Here.](https://github.com/CapitainHolmes/Vinyl-E-Commerce-Project)** 
 
 ## CREDIT
 
-### Content
+The biggest thing I can credit the most, is the Code Institute course material. Being in the situation I am in, starting a new job, still reocvering from surgery, 
+I cannot give enough credit to how simple and easy their videos are to follow and help me to get this project finished. I used a lot of their course material for this course,
+as I was really confused and struggling for idea's. Also panicking due to my end date getting closer and closer (as I am writing this my end date is in 6 days).
 
 
 ## ACKNOWLEDGEMENTS
 
+I want to thank the Code Institute Tutor System for all their help and support throughout, not just for this project but for the course as a whole. It has been
+a rollercoaster, but I'm thrilled to be finally ready to submit my Fourth AND last project with Code Institute.
+
 I recieved inspiration for this project from:
+
+- Friends.
+- My Mentor Dick.
