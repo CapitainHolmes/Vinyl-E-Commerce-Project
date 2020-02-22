@@ -54,6 +54,15 @@ The Target Audience for this application would be:
 
 ### Features Used in This Project:
 
+- a Search bar.
+- The ability to search for a specific Vinyl record.
+- Add multiple Vinyls to your cart.
+- Sign in/out functionality.
+- Able to register an account for the application.
+- Checkout and purchase Vinyls that you have added to your cart.
+- A dropdwon navigation bar for responsive design on smaller screens.
+- The ability to view how many items you have added to your cart over the 'cart' tab in the navigation bar.
+- A full form for adding in your address and card details to checkout adn purchase vinyls.
 
 
 ## TECHNOLOGIES
