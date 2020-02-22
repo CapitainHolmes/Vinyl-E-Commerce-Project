@@ -85,6 +85,24 @@ as payment platform to validate and accept credit card payments securely.
 
 ## TESTING
 
+I have a static directory with a folder for all tests that I conducted for this application which can be found **[here](https://github.com/CapitainHolmes/Vinyl-E-Commerce-Project/tree/master/static/tests)**
+
+For testing I have used an IDE called Selenium, which is a free add-on for Google Chrome or Firefox. It is used for automated testing of web applications
+and is really easy and simple to use.
+
+- The First test I conducted was to open the application and to check to see if the 
+Logo was there on the navigation bar, indicating that the application was live and in fully working order. 
+This test can be found **[here](https://github.com/CapitainHolmes/Vinyl-E-Commerce-Project/tree/master/static/tests/selenium-tests/selenium-open-app-test.png)**
+
+- The Second test I conducted, was to see if the ability to add a vinyl to the cart (when logged in) was fully functional.
+This test can be found **[here](https://github.com/CapitainHolmes/Vinyl-E-Commerce-Project/blob/master/static/tests/selenium-tests/selenium-add-to-cart-test.png)**
+
+- The Third test I conducted, was to see if the search functionaly was functional by searching for an Artist by name. 
+This test can be found **[here](https://github.com/CapitainHolmes/Vinyl-E-Commerce-Project/blob/master/static/tests/selenium-tests/selenium-test-search-functionality.png)**
+
+
+
+
 
 ### Using Heroku Logs and Chrome Dev Tools
 
