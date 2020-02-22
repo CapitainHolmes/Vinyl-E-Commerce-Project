@@ -100,6 +100,8 @@ This test can be found **[here](https://github.com/CapitainHolmes/Vinyl-E-Commer
 - The Third test I conducted, was to see if the search functionaly was functional by searching for an Artist by name. 
 This test can be found **[here](https://github.com/CapitainHolmes/Vinyl-E-Commerce-Project/blob/master/static/tests/selenium-tests/selenium-test-search-functionality.png)**
 
+- The Fourth test I conducted, was to see whether a user is able to check their added item out by filling the details form on the checkout page.
+This test can be found **[here](https://github.com/CapitainHolmes/Vinyl-E-Commerce-Project/blob/master/static/tests/selenium-tests/selenium-checking-out-test.png)**
 
 
 
